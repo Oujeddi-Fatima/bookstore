@@ -57,7 +57,7 @@ public class Order implements Serializable {
 
 	@NotEmpty(message="Please insert address")
 	private String address;
-	@Size(min = 5, max=6, message="Please Insert a Valid ZipCode")
+	@Size(min = 2, max=6, message="Please Insert a Valid ZipCode")
 	private String zipcode;
 	private String phone;
 
